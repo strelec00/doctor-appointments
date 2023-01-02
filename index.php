@@ -33,6 +33,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
     <div class="red">
         <?php include "includes/footer.php"; ?>
     </div>
-    
+    413432
 </body>
+
 </html>
