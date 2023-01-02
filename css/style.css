@@ -155,8 +155,8 @@ object {
 /*navigacija*/
 
 .red:first-child {
-    background-color: rgba(56, 61, 66, 0.7);
     display: flex;
+    opacity: 1;
     align-items: center;
     position: sticky;
     top: 0px;
@@ -192,9 +192,10 @@ object {
 }
 
 #navigacija ul li a:hover {
-    text-decoration: underline overline #75d4a8;
-    padding: 10px;
+    color: rgb(140, 231, 231) ;
 }
+
+
 
 #sadrzaj-tekst{
     width:1200px;
