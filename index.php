@@ -34,6 +34,5 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
         <?php include "includes/footer.php"; ?>
     </div>
     
-    123
 </body>
 </html>
