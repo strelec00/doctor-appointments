@@ -28,3 +28,4 @@ doktor - Navigation;
 pocetna, o nama, uredivanje termina, pregled pacijenata(termin - datum - bolest - ime prezime)
 
 uredivanje termina - svi termini (filter)
+

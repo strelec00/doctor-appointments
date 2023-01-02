@@ -20,7 +20,7 @@
          <?php include "includes/header.php"; ?>
          
             <section id="sadrzaj" class="t-kolona-12">
-                <div>  
+                <div id="sadrzaj-tekst">  
                     <label>
 What is Lorem Ipsum?
 

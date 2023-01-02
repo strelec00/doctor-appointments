@@ -170,12 +170,13 @@ object {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    margin-right: 190px;
     text-align: right;
 }
 
 #navigacija ul li {
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 10px;
 }
 
 #navigacija ul li a {
@@ -191,7 +192,13 @@ object {
 }
 
 #navigacija ul li a:hover {
-    color: rgb(134, 228, 200);
+    text-decoration: underline overline #75d4a8;
+    padding: 10px;
+}
+
+#sadrzaj-tekst{
+    width:1200px;
+    margin:auto;
 }
 
 
