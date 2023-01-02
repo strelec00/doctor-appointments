@@ -156,7 +156,6 @@ object {
 
 .red:first-child {
     display: flex;
-    opacity: 1;
     align-items: center;
     position: sticky;
     top: 0px;
@@ -186,7 +185,7 @@ object {
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
     padding: 7px;
-    color: white;
+    color: rgb(49, 46, 46);
     transition: all 0.3s linear;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
