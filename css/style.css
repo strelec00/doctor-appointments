@@ -6,31 +6,27 @@ body {
 
 /* Logo */
 #logo img {
-    border-radius: 4px;
-    width: 270px;
-    height: 70px;
-    margin: auto;
+    width: 300px;
+    height: 62px;
     position: relative;
+    margin: auto;
     padding: auto;
-    margin-left: 160px;
+    
 }
 
 #logo{
     padding-top: 5px;
     padding-bottom: 3px;
-
+    
 }
 
 /*content*/
 #zaglavlje h1 {
     color: #ffffff;
 }
-#zaglavlje {
-    margin-bottom: 20px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    height: 310px;
-    display: flex;
-    
+
+#zaglavlje div{
+        height: auto;
 }
 
 #zaglavlje h3 {
@@ -38,12 +34,19 @@ body {
     margin: 0;
     font-size: 30px;
 }
+#zaglavlje {
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* header */
 #header-tekst{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    margin-left: 180px;
 }
 
 #headergumb{
@@ -69,10 +72,12 @@ body {
 }
 #header-slika img{
     height: 290px;
-
+    margin: auto;
 }
 #header-slika {
     margin-bottom: 5px;
+    text-align: right
+
 
 }
 
@@ -82,14 +87,6 @@ body {
     max-height: 2000px;
     overflow: auto;
     padding: 25px;
-}
-#zaglavlje {
-    margin-bottom: 20px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    height: 310px;
-        display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 /* Izbornik */
@@ -179,16 +176,13 @@ object {
     z-index: 1000;
     position: sticky;
 }
-#zaglavlje div{
-    display: inline-block;
-}
 
 #navigacija ul {
     list-style-type: none;
-    margin-right: 250px;
-    padding: auto;
+        
     text-align: right;
 }
+/* Navigacija */
 
 #navigacija ul li {
     display: inline-block;
@@ -216,12 +210,32 @@ object {
 
 
 
-@media(min-width: 700px) {
-    #navigacija li {
-        text-align: left;
+@media(max-width: 1220px) {
+  
+    #navigacija ul {
+        position: fixed;
+        right: -100%;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: #d8dde2;
+        text-align: center;
+        padding: 80px 0;
+        transition: 0.7s;
+
     }
+    #navigacija ul li {
+        display: block;
+        margin: 20px 0px;
+        text-align: center;
+    }
+  
 }
-@media(max-width: 1202px) {
+@media(max-width: 700px) {
+    
+    #zaglavlje{
+        display: inline;
+    }
     #navigacija ul {
         position: fixed;
         right: -100%;
@@ -241,7 +255,105 @@ object {
   
 }
 
+/* login button*/
+.button-37 {
+    background-color: #4bbd7a;
+    border: 1px solid #13aa52;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: rgb(7, 6, 6);
+    cursor: pointer;
+    font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-37:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-2px);
+  }
+  
+  @media (min-width: 768px) {
+    .button-37 {
+      padding: 10px 30px;
+    }
+  }
+/* button header */
+  .button-85 {
+    padding: 0.6em 2em;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-size:15px;
 
+  }
+  
+  .button-85:before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #573c3c,
+      #1db81d,
+      #fffb00,
+      #48ff00,
+      #00ffd5
+
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-button-85 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  @keyframes glowing-button-85 {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  .button-85:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
 
 
 /* tablet*/
