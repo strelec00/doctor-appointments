@@ -1,5 +1,5 @@
 <header id="zaglavlje" class="t-kolona-12 d-kolona-12">
-<div class="d-kolona-1">
+<div class="d-kolona-1 t-kolona-0">
 
 </div>
     <div id="header-tekst" class="t-kolona-12 d-kolona-5">
@@ -15,7 +15,7 @@
     <div id="header-slika" class="t-kolona-12 d-kolona-5">
     <img src="slike/doctori.png">
     </div>
-    <div class="d-kolona-1">
+    <div class="d-kolona-1 t-kolona-0">
 
     </div>
 
