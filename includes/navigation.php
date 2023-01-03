@@ -11,8 +11,6 @@
         <li><a href="termini.php">PACIJENTI</a></li>
         <li><a href="onama.php">O NAMA</a></li>
         <li><a href="kontakt.php">KONTAKT</a></li>     
-        <label for="oznaci" class="sakrij_gumbic">
-            <i class="fas fa-times"></i>
-        </label>
+        
     </ul>
 </nav>

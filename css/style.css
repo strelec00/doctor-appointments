@@ -9,10 +9,10 @@ body {
     border-radius: 4px;
     width: 270px;
     height: 70px;
-    margin-left: 165px;
+    margin: auto;
     position: relative;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding: auto;
+    margin-left: 160px;
 }
 
 #logo{
@@ -30,6 +30,7 @@ body {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     height: 310px;
     display: flex;
+    
 }
 
 #zaglavlje h3 {
@@ -93,9 +94,8 @@ body {
 
 /* Izbornik */
 #izbornik_slide {
-    height: 250px;
-    display: flex;
     text-align: center;
+    display: flex;
 }
 #izbornik_slide ul {
     list-style-type: none;
@@ -124,6 +124,7 @@ body {
 #izbornik_slide div {
     text-align: left;
     margin: 0 auto;
+    height: 300px;
     background-color: #2df7269f;
     border-radius: 10px;
 }
@@ -147,11 +148,7 @@ object {
     max-width: 100%;
 }
 
-@media(min-width: 700px) {
-    #navigacija li {
-        text-align: left;
-    }
-}
+
 
 /* layout */
 
@@ -171,6 +168,82 @@ object {
     padding: 10px;
     width: 100%;
 }
+
+/*navigacija*/
+
+.red:first-child {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    top: 0px;
+    z-index: 1000;
+    position: sticky;
+}
+#zaglavlje div{
+    display: inline-block;
+}
+
+#navigacija ul {
+    list-style-type: none;
+    margin-right: 250px;
+    padding: auto;
+    text-align: right;
+}
+
+#navigacija ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+#navigacija div {
+    position: fixed;
+}
+
+#navigacija ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    padding: 7px;
+    color: rgb(49, 46, 46);
+    transition: all 0.3s linear;
+    font-weight: bold;
+}
+
+#navigacija ul li a:hover {
+    color: rgb(15, 173, 62) ;
+}
+
+
+
+
+@media(min-width: 700px) {
+    #navigacija li {
+        text-align: left;
+    }
+}
+@media(max-width: 1202px) {
+    #navigacija ul {
+        position: fixed;
+        right: -100%;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: #d8dde2;
+        text-align: center;
+        padding: 80px 0;
+        transition: 0.7s;
+    }
+    #navigacija ul li {
+        display: block;
+        margin: 20px 0px;
+        text-align: center;
+    }
+  
+}
+
+
+
+
 /* tablet*/
 
 @media (min-width:700px) {
@@ -251,78 +324,3 @@ object {
         width: 100%;
     }
 }
-/*navigacija*/
-
-.red:first-child {
-    display: flex;
-    background-color: white;
-    align-items: center;
-    top: 0px;
-    z-index: 1000;
-    position: sticky;
-}
-
-#navigacija ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    margin-right: 257px;
-    text-align: right;
-}
-
-#navigacija ul li {
-    display: inline-block;
-    margin-right: 10px;
-}
-#navigacija div {
-    position: fixed;
-}
-
-#navigacija ul li a {
-    display: inline-block;
-    text-decoration: none;
-    font-size: 17px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    letter-spacing: 1px;
-    padding: 7px;
-    color: rgb(49, 46, 46);
-    transition: all 0.3s linear;
-    font-weight: bold;
-}
-
-#navigacija ul li a:hover {
-    color: rgb(15, 173, 62) ;
-}
-
-
-#oznaci {
-    display: none;
-}
-
-@media (max-width:700px) {
-    #header-tekst{
-        margin: 0;
-    }
-    
-    #navigacija ul {
-        position: fixed;
-        right: -100%;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        background: #d8dde2;
-        text-align: center;
-        padding: 80px 0;
-        transition: 0.7s;
-    }
-    #navigacija ul li {
-        display: block;
-        margin: 20px 0px;
-        text-align: center;
-    }
-    
-    #oznaci:checked~ul {
-        right: 0;
-    }
-}
-

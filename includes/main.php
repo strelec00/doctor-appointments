@@ -2,7 +2,7 @@
 <div class="t-kolona-12 d-kolona-2">
         
     </div>
-    <div class="t-kolona-12 d-kolona-2">
+    <div class="t-kolona-6 d-kolona-2">
         <h4>O nama</h4>
         <ul>
                     <li>1</li>
