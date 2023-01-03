@@ -42,20 +42,32 @@ body {
 #header-tekst{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    margin-left: 20px;
+    margin-left: 180px;
 }
 
 #headergumb{
-    background-color: #008CBA;
+    background-color: #4cbb51;
     text-align: center;
-    size: 80px;
-    border-radius: 16px;
-    padding: 5px;
+    width: 250px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 19px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    padding: 7px;
+    color: rgb(49, 46, 46);
+    transition: all 0.3s linear;
+    font-weight: bold;
+}
+#headergumb:hover{
+    background-color: #64e96a;
+    color: #4b5255;
 }
 #header-slika img{
     height: 290px;
-    margin-left: 120px;
-
 
 }
 #header-slika {
@@ -64,8 +76,6 @@ body {
 }
 
 #sadrzaj {
-    background-color: #cdd0d3;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.24);
     margin-bottom: 20px;
     min-height: 500px;
     max-height: 2000px;
@@ -81,25 +91,43 @@ body {
     align-items: center;
 }
 
-/*footer*/
-
-#podnozje_prvo {
-    background-color: rgba(91, 99, 107, 0.7);
-    height: 300px;
+/* Izbornik */
+#izbornik_slide {
+    height: 250px;
     display: flex;
-    box-sizing: border-box;
+    text-align: center;
 }
-#podnozje_prvo ul {
+#izbornik_slide ul {
     list-style-type: none;
-    margin: 0px;
     padding: 0px;
 }
-
-
-#podnozje_prvo div {
-    width: 250px;
-    text-align: left;
+#izbornik_slide  h4{
+  font-size: 18px;
+  color: #000000;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
 }
+#izbornik_slide h4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+
+#izbornik_slide div {
+    text-align: left;
+    margin: 0 auto;
+    background-color: #2df7269f;
+    border-radius: 10px;
+}
+/*footer*/
 
 #podnozje {
     background-color: rgba(56, 61, 66, 0.7);
@@ -234,20 +262,20 @@ object {
     position: sticky;
 }
 
-
-
-
 #navigacija ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    margin-right: 190px;
+    margin-right: 257px;
     text-align: right;
 }
 
 #navigacija ul li {
     display: inline-block;
     margin-right: 10px;
+}
+#navigacija div {
+    position: fixed;
 }
 
 #navigacija ul li a {
@@ -263,18 +291,8 @@ object {
 }
 
 #navigacija ul li a:hover {
-    color: rgb(140, 231, 231) ;
+    color: rgb(15, 173, 62) ;
 }
-
-
-
-#sadrzaj-tekst{
-    width:1200px;
-    margin:auto;
-}
-
-
-
 
 
 #oznaci {
@@ -282,6 +300,9 @@ object {
 }
 
 @media (max-width:700px) {
+    #header-tekst{
+        margin: 0;
+    }
     
     #navigacija ul {
         position: fixed;

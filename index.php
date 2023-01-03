@@ -18,10 +18,10 @@
 
     <div class="red">
          <?php include "includes/header.php"; ?>
+         <?php include "includes/main.php"; ?>
          
             <section id="sadrzaj" class="t-kolona-12">
-                <div id="sadrzaj-tekst">  
-                </div>
+              
             </section> 
     </div>
     <div class="red">

@@ -1,9 +1,9 @@
-<div id="logo" class="t-kolona-6 d-kolona-6">
+<div id="logo" class="t-kolona-6 d-kolona-3">
     <a href="index.php">
         <img src="./slike/logo.png" />
     </a>
 </div>
-<nav id="navigacija" class="t-kolona-6 d-kolona-6">		
+<nav id="navigacija" class="t-kolona-12 d-kolona-9">		
 
     <ul>
         <li><a href="index.php">POČETNA</a></li>
