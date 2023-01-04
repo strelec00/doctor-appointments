@@ -11,7 +11,7 @@
     <ul>
         <li><a href="index.php">POČETNA</a></li>
         <li><a href="termini.php">TERMINI</a></li>
-        <li><a href="termini.php">PACIJENTI</a></li>
+        <li><a href="pacijenti.php">PACIJENTI</a></li>
         <li><a href="onama.php">O NAMA</a></li>
         <li><a href="kontakt.php">KONTAKT</a></li>     
         

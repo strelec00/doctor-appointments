@@ -1,4 +1,4 @@
-<footer id="izbornik_slide" class="t-kolona-12 d-kolona-12">
+<main id="izbornik_slide" class="t-kolona-12 d-kolona-12">
 <div class="t-kolona-12 d-kolona-2">
         
     </div>
@@ -29,4 +29,4 @@
     <div class="t-kolona-12 d-kolona-2">
         
     </div>
-</footer>
+</main>

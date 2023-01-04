@@ -2,9 +2,9 @@
 <html lang="hr">
 <head>
    <?php
-   $title = "Zdravlje";
+   $title = "Pacijenti";
    $description = "Web aplikacija za rezervaciju termina"; 
-   $keywords = "rezervacija, termini, doktor, pocetna"; 
+   $keywords = "rezervacija, termini, doktor, termin, poliklinika,pacijenti"; 
     include "includes/head.php";
     
    ?>
@@ -17,11 +17,16 @@
 
 
     <div class="red">
-         <?php include "includes/header.php"; ?>
-         <?php include "includes/main.php"; ?>
          
             <section id="sadrzaj" class="t-kolona-12">
-              
+            <div class="d-kolona-1">
+                  </div>
+                  <div class="d-kolona-10 t-kolona-12">
+                    prvi
+                  </div>
+                 
+                  <div class="d-kolona-1 t-kolona-12">
+                  </div>
             </section> 
     </div>
     <div class="red">

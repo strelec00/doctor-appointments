@@ -84,13 +84,13 @@
 
                     
                     <div class="input-field button">
-                        <input type="button" value="Signup">
+                        <input type="button" value="Registracija">
                     </div>
                 </form>
 
                 <div class="login-signup">
                     <span class="text">Imate li račun?
-                        <a href="#" class="text login-link">Prijavi se</a>
+                        <a href="login.php" class="text login-link">Prijavi se</a>
                     </span><br>
                     <span class="text">Vrati se na početnu.</span>
                         <a href="index.php" class="text login-link">Početna</a>
