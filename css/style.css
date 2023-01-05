@@ -87,6 +87,47 @@ body {
     overflow: auto;
     padding: 25px;
 }
+/*Ovdje se nalazi CSS za O nama stranicu*/
+/*.......................................*/
+/*.......................................*/
+/*.......................................*/
+
+/*Naslov na O nama*/
+#abtitle{
+    color: #000000;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px #00ffd5;
+}
+/* glavni tekst*/
+#abmaint{
+    font-size: 19px;
+    margin: auto;
+
+}
+
+/*Dio s logovima i uslugama*/
+#glavnicontainer{
+    text-align: center;
+}
+#surgery{
+    width: 120px;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#dok{
+    width: 120px;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#labos{
+    align-self: center;
+}
+#micro{
+    width: 120px;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 
 /* Izbornik */
 #izbornik_slide {
