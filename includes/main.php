@@ -5,9 +5,12 @@
     <div class="t-kolona-6 d-kolona-2">
         <h4>O nama</h4>
         <ul>
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
+                    <li>1 Nudi vrhunske usluge iz različitih područja medicine</li>
+                    <br>
+                    <li>2 Mogučnost kartičnog plaćanja</li>
+                    <br>
+                    <li>3 Nudi ostanak i pruža pomoć u oporavku nakon operacije</li>
+                    <br>
                 </ul>
     </div>
     <div class="t-kolona-12 d-kolona-2">
