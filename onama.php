@@ -49,7 +49,7 @@
                     <h3 id="abtitle">Usluge</h3>
                     <div id="kirurgija">
                       <img src="slike/surgery.png" id="surgery">
-                      <span>
+                      <span><br>
                         Kirurgija
                         <br>
                         Na jednome mjestu obavite potrebne preglede i zahvate
@@ -58,7 +58,7 @@
                     <br>
                     <div id="pregled">
                       <img src="slike/doc.png" id="dok">
-                      <span>
+                      <span><br>
                         Pregled
                         <br>
                         Prilikom dolaska u bolnicu nudimo sveobuhvatni pregled pacijenata
@@ -67,7 +67,7 @@
                     <br>
                     <div id="labos">
                       <img src="slike/microskop.png" id="micro">
-                      <span>
+                      <span><br>
                         Laboratorij
                         <br>
                         Modernim metodama testiranja nudimo uvid u vaše zdravlje
