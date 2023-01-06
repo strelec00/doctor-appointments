@@ -42,6 +42,7 @@ body {
     align-items: center;
 }
 
+
 /* header */
 #header-tekst{
     font-family: Arial, Helvetica, sans-serif;
@@ -160,10 +161,12 @@ body {
 
 #izbornik_slide div {
     text-align: left;
-    margin: 0 auto;
     height: 300px;
     background-color: #99dd979f;
     border-radius: 10px;
+    margin-left: 28px;
+    margin-right: 28px;
+
 }
 /*footer*/
 
@@ -281,7 +284,27 @@ object {
     
     #zaglavlje{
         display: inline;
+        height: auto;
+        
     }
+    #header-tekst{
+        text-align: center;
+    }
+    #header-slika{
+        text-align: center;
+    }
+    #izbornik_slide {
+       /* slozit responzivnost levo desno na mob */
+        display: inline-block;
+    }    
+    #main_drugi{
+        margin-top: 18px;
+    }
+    #main_treci{
+        margin-top: 20px;
+        
+    }
+        
     #navigacija ul {
         position: fixed;
         right: -100%;
