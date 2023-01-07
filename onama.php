@@ -45,11 +45,13 @@
 
 
                   <div class="d-kolona-5 t-kolona-12">
-                    <div id="glavnicontainer">
                     <h3 id="abtitle">Usluge</h3>
+                    <div id="maincontainer">
+                    <div id="firstcontainer">
                     <div id="kirurgija">
                       <img src="slike/surgery.png" id="surgery">
-                      <span><br>
+                      <span>
+                        <br>
                         Kirurgija
                         <br>
                         Na jednome mjestu obavite potrebne preglede i zahvate
@@ -58,22 +60,37 @@
                     <br>
                     <div id="pregled">
                       <img src="slike/doc.png" id="dok">
-                      <span><br>
+                      <span>
+                        <br>
                         Pregled
                         <br>
                         Prilikom dolaska u bolnicu nudimo sveobuhvatni pregled pacijenata
                       </span>
                     </div>
+                    </div>
                     <br>
+                    <br>
+                    <div id="drugicontainer">
                     <div id="labos">
                       <img src="slike/microskop.png" id="micro">
-                      <span><br>
+                      <span>
+                        <br>
                         Laboratorij
                         <br>
                         Modernim metodama testiranja nudimo uvid u vaše zdravlje
                       </span>
                     </div>
-                  </div>
+                    <div id="obmed">
+                      <img src="slike/doctool.png" id="tool">
+                      <span>
+                        <br>
+                        Obiteljska medicina
+                        <br>
+                        Najbolji liječnici obiteljske medicine stoje vam na raspolaganju
+                      </span>
+                      </div>
+                    </div>
+                    </div>
                   </div>
                   <div class="d-kolona-1 t-kolona-12">
                   </div>
