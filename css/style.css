@@ -81,69 +81,51 @@ body {
 
 }
 
+/*Ovdje se nalazi CSS za O nama stranicu*/
+/*.......................................*/
+/*.......................................*/
+/*.......................................*/
 #sadrzaj {
     margin-bottom: 20px;
     min-height: 500px;
     max-height: 2000px;
     overflow: auto;
-    padding: 25px;
+    padding: 0;
 }
-/*Ovdje se nalazi CSS za O nama stranicu*/
-/*.......................................*/
-/*.......................................*/
-/*.......................................*/
 
 /*Naslov na O nama*/
-#abtitle{
+#onama_desni_container > h3, #onama_lijevi_container > h3{
     color: #000000;
     font-size: 25px;
-    text-shadow: 1px 1px 2px #00ffd5;
+    text-shadow: 1px 1px 1px #277732;
+    margin-top: 15px;
+    margin-bottom: 17px;
 }
 /* glavni tekst*/
 #abmaint{
     font-size: 19px;
-    margin: auto;
-
+    margin: 0;
 }
 
 /*Dio s logovima i uslugama*/
-#glavnicontainer{
+#onama_prvired, #onama_drugired{
+    padding: 0;
+}
+#onama_desni_container img{
+    width: 120px;
+    height: 120px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#onama_desni_container {
     text-align: center;
 }
-#surgery{
-    width: 120px;
-    height: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-#dok{
-    width: 120px;
-    height: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-#labos{
-    align-self: center;
-}
-#micro{
-    width: 120px;
-    height: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-#tool{
-    width: 120px;
-    height: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+
+
 #maincontainer{
     display: flex;
 }
-#prvicontainer{
-    display: flex;
-}
-#drugicontainer{
-    display: flex;
-    flex-direction: column-reverse;
-    float: right;
-}
+
+
 /* Završetak CSS-a vezanog za stranicu O nama*/
 
 
@@ -271,7 +253,13 @@ object {
 
 
 @media(max-width: 1100px) {
-    
+
+    /* onama responzivnost */
+        #onama_prvi{
+            display: none;
+            
+        }
+    /* zavrsetak o nama */
     #navigacija{
         width: 30%;
     }
