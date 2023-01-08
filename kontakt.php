@@ -9,18 +9,18 @@
    ?>
    <link rel="stylesheet" href="css/contact.css" type="text/css">
    
-</head>
+   </head>
 <body>
-  <div class="wrapper">
-    <form class="form">
-      <div class="pageTitle title">Kontakt</div>
-      <input type="text" class="name formEntry" placeholder="Unesi ime" />
-      <input type="text" class="surname formEntry" placeholder="Unesi prezime" />
-      <input type="text" class="email formEntry" placeholder="Email"/>
-      <textarea class="message formEntry" placeholder="Message"></textarea>
-      <button class="submit formEntry">Pošalji</button>
-    </form>
-  </div>
-</body>
+<form class="form">
+  <h2>Kontaktiraj nas</h2>
+  <p type="Ime:"><input placeholder="Upiši svoje ime ovdje.."></input></p>
+  <p type="Email:"><input placeholder="Kako da vas kontaktiramo natrag.."></input></p>
+  <p type="Poruka:"><input placeholder="Što nam žeite reći.."></input></p>
+  <button>Pošalji poruku</button>
+  <div class="text">Vrati se na početnu.
+    <a href="index.php" class="text">Početna</a>
+</div>
+</form>
 
+</body>
 </html>

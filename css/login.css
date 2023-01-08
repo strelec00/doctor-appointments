@@ -16,6 +16,8 @@ body{
     background-color:  #436855;
 }
 
+
+
 .container{
     position: relative;
     max-width: 430px;
@@ -34,6 +36,7 @@ body{
     width: 200%;
     transition: height 0.2s ease;
 }
+
 
 
 .container .form{
@@ -99,7 +102,7 @@ body{
 }
 
 .input-field input:is(:focus, :valid){
-    border-bottom-color:  #40f467;
+    border-bottom-color:  #28913f;
 }
 
 .input-field i{
@@ -112,7 +115,7 @@ body{
 }
 
 .input-field input:is(:focus, :valid) ~ i{
-    color:  #40f467;
+    color:  #28913f;
 }
 
 .input-field i.icon{
@@ -171,7 +174,7 @@ body{
 }
 
 .button input:hover{
-    background-color: #393d3b;
+    background:#78788c;
 }
 
 .form .login-signup{

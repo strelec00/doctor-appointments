@@ -1,7 +1,6 @@
   
 
 <!DOCTYPE html>
-<!-- === Coding by CodingLab | www.codinglabweb.com === -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,7 +16,6 @@
     <!-- ===== CSS ===== -->
     <link rel="stylesheet" href="css/login.css">
          
-    <!--<title>Login & Registration Form</title>-->
 </head>
 <body>
     
