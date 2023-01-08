@@ -18,7 +18,7 @@
 
 
     <div class="red"> 
-        <section id="sadrzaj" class="t-kolona-12">
+        <section id="onama_sadrzaj" class="t-kolona-12">
             <div class="d-kolona-1" id="onama_prvi">
             </div>
             <div class="d-kolona-5 t-kolona-12" id="onama_lijevi_container">
@@ -88,8 +88,12 @@
 
             </div>
         </div>
+        <div class="d-kolona-1 t-kolona-12">
+            
+        </div>
                
     </div>
+    <div class="d-kolona-12 t-kolona-0" style="height: 99px;"></div>
     <div class="red">
         <?php include "includes/footer.php"; ?>
     </div>

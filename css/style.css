@@ -85,7 +85,7 @@ body {
 /*.......................................*/
 /*.......................................*/
 /*.......................................*/
-#sadrzaj {
+#onama_sadrzaj {
     margin-bottom: 20px;
     min-height: 500px;
     max-height: 2000px;
@@ -120,18 +120,17 @@ body {
     text-align: center;
 }
 
-
-#maincontainer{
-    display: flex;
-}
-
-
 /* Završetak CSS-a vezanog za stranicu O nama*/
 
 
-/* Izbornik */
+/* Izbornik // index */
+#sadrzaj {
+    margin-bottom: 20px;
+    overflow: auto;
+    min-height: auto;
+    padding: 0;
+}
 #izbornik_slide {
-    text-align: center;
     display: flex;
 }
 #izbornik_slide ul {
@@ -158,19 +157,19 @@ body {
 }
 
 
-#izbornik_slide div {
+#izbornik_blok{
     text-align: left;
-    height: 300px;
+    height: auto;
+    width: 100%;
+    min-width: 230px;
     background-color: #3761369f;
     border-radius: 10px;
-    margin-left: 72px;
-    margin-right: 72px;
 
 }
 /*footer*/
 
 #podnozje {
-    background-color: rgba(56, 61, 66, 0.7);
+    background-color: rgb(52, 85, 45);
     color: #000000;
     text-align: center;
     font-size: 14px;
@@ -288,6 +287,20 @@ object {
     }
   
 }
+@media(max-width: 800px) {
+/* izbornik responzivnost */
+#izbornik_slide {
+    display: inline-block;
+}   
+
+#izbornik_slide div{
+    width: 100%;
+    margin-left: 0;
+}
+/* gotova responzivnost za izbornik */
+
+
+}
 @media(max-width: 700px) {
     
     #zaglavlje{
@@ -301,16 +314,7 @@ object {
     #header-slika{
         text-align: center;
     }
-    #izbornik_slide {
-       /* slozit responzivnost levo desno na mob */
-        display: inline-block;
-    }   
-    
-    #izbornik_slide div{
-       /* slozit responzivnost levo desno na mob */
-        width: 100%;
-        margin-left: 0;
-    }
+
     #main_drugi{
         margin-top: 19px;
     }    
@@ -466,6 +470,9 @@ object {
 @media (min-width:1100px) {
     .d-kolona-1 {
         width: 8.33%;
+    }
+    .d-kolona-1-5{
+        width: 12.25%;
     }
     .d-kolona-2 {
         width: 16.66%;

@@ -1,6 +1,6 @@
 <main id="izbornik_slide" class="t-kolona-12 d-kolona-12">
 
-    <div class="t-kolona-12 d-kolona-4">
+    <div class="t-kolona-12 d-kolona-3" id="izbornik_blok">
         <h4>O nama</h4>
         <ul>
                     <li>Nudimo vrhunske usluge iz različitih područja medicine</li>
@@ -11,15 +11,20 @@
                     <br>
                 </ul>
     </div>
-    <div class="t-kolona-12 d-kolona-4" id="main_drugi">
+
+    <div class="t-kolona-12 d-kolona-1-5" >
+    </div>    
+    <div class="t-kolona-12 d-kolona-3" id="izbornik_blok">
         <h4>Kontakt</h4>
                 <ul>
-                    <li></li>
+                    <li>Mogučnost kartičnog plaćanjaMogučnost kartičnog plaćanjaMogučnost kartičnog plaćanjaMogučnost kartičnog plaćanja</li>
                     <li></li>
                     <li></li>
                 </ul>
     </div>
-    <div class="t-kolona-12 d-kolona-4" id="main_treci">
+    <div class="t-kolona-12 d-kolona-1-5">
+    </div>    
+    <div class="t-kolona-12 d-kolona-3" id="izbornik_blok">
         <h4>Pomoc</h4>
         <ul>
                     <li></li>
