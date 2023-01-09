@@ -17,7 +17,7 @@
     <div class="t-kolona-12 d-kolona-3" id="izbornik_blok">
         <h4>Kontakt</h4>
                 <ul>
-                    <li>Mogučnost kartičnog plaćanjaMogučnost kartičnog plaćanjaMogučnost kartičnog plaćanjaMogučnost kartičnog plaćanja</li>
+                    <li>Mogučnost kartičnog  kartičnog kartičnog kartičnog kartičnog plaćanjaMogučnost kartičnog plaćanjaMogučnost kartičnog plaćanjaMogučnost kartičnog plaćanja</li>
                     <li></li>
                     <li></li>
                 </ul>

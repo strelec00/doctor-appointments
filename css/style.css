@@ -126,8 +126,9 @@ body {
 /* Izbornik // index */
 #sadrzaj {
     margin-bottom: 20px;
+    min-height: 500px;
+    max-height: 2000px;
     overflow: auto;
-    min-height: auto;
     padding: 0;
 }
 #izbornik_slide {
