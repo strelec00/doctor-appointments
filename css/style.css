@@ -165,8 +165,10 @@ body {
     min-width: 230px;
     background-color: #3761369f;
     border-radius: 10px;
-
 }
+#izbornik_blok > ul{
+    line-height: 25px;
+  }
 /*footer*/
 
 #podnozje {
