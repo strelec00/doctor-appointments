@@ -15,7 +15,7 @@
   <h2>Kontaktiraj nas</h2>
   <p type="Ime:"><input placeholder="Upiši svoje ime ovdje.."></input></p>
   <p type="Email:"><input placeholder="Kako da vas kontaktiramo natrag.."></input></p>
-  <p type="Poruka:"><input placeholder="Što nam žeite reći.."></input></p>
+  <p type="Poruka:"><input placeholder="Što nam želite reći.."></input></p>
   <button>Pošalji poruku</button>
   <div class="text">Vrati se na početnu.
     <a href="index.php" class="text">Početna</a>
