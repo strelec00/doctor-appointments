@@ -9,22 +9,23 @@
                     <br>
                     <li>Mogučnost kartičnog plaćanja</li>
                     <br> -->
-                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry</li>
-                    <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </li>
-                    <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </li>
-                    <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </li>
+                    <li>Nudimo vrhunske usluge iz različitih područja medicine</li>
+                    <br>
+                    <li>Pruža mogućnost ostanka i oporavka u poliklinici uz stručnu pomoć osoblja</li>
+                    <br>
+                    <li>Radno vrijeme: 08:00 do 16:00h</li>
                 </ul>
     </div>
-
     <div class="t-kolona-12 d-kolona-1-5" >
     </div>    
     <div class="t-kolona-12 d-kolona-3" id="izbornik_blok">
         <h4>Kontakt</h4>
                 <ul>
-                <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry</li>
-                    <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </li>
-                    <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </li>
-                    <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </li>
+                <li>Ukoliko imate pitanja ispunite formu na stranici Kontakt</li>
+                <br>
+                <li>Dodatno možete nas dobiti pozivom na broj: 091 615 3393 </li>
+                <br>
+                <li>Lokacija: Vukovarska Ul. 7A, Rijeka </li>
                 </ul>
     </div>
     <div class="t-kolona-12 d-kolona-1-5">
@@ -32,10 +33,11 @@
     <div class="t-kolona-12 d-kolona-3" id="izbornik_blok">
         <h4>Pomoc</h4>
         <ul>
-        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry</li>
-                    <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </li>
-                    <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </li>
-                    <li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </li>
+        <li>Ukoliko imate problema prilikom prijave ili zakazivanja termina kontaktirajte nas putem telefona</li>
+        <br>
+        <li>Poliklinika omogućuje kartično plaćanje i na rate </li>
+        <br>
+        <li>Poliklinika Zdravlje je privatna i nema ugovor s HZZO-om</li>
                 </ul>
     </div>
    
