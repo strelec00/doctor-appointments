@@ -13,7 +13,7 @@
                     <br>
                     <li>Pruža mogućnost ostanka i oporavka u poliklinici uz stručnu pomoć osoblja</li>
                     <br>
-                    <li>Radno vrijeme: 08:00 do 16:00h</li>
+                    <li>Radno vrijeme: Svaki dan od; 08:00 do 16:00h</li>
                 </ul>
     </div>
     <div class="t-kolona-12 d-kolona-1-5" >
