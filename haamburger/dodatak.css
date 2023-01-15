@@ -1,5 +1,5 @@
 body{
-	background-color: blue;
+	background-color: gray;
 }
 
 * {
@@ -16,24 +16,26 @@ body{
 	margin: 0 auto;
 	padding-left: 128px;
 	padding-right: 128px;
+}
 
 	@media (max-width: 1024px) {
-		padding-left: 64px;
-		padding-right: 64px;
+		.container{
+			padding-left: 64px;
+			padding-right: 64px;
+		}
 	}
 
 	@media (max-width: 767px) {
-		padding-left: 32px;
-		padding-right: 32px;
+		.container{padding-left: 32px;
+		padding-right: 32px;}
 	}
-}
 
 .hamburger {
 	position: relative;
 	display: block;
 	width: 35px;
 	cursor: pointer;
-	
+	z-index: 100;
 	appearance: none;
 	background: none;
 	outline: none;
@@ -56,8 +58,8 @@ body{
 
 .hamburger.is-active:after {
 	transform: rotate(45deg) translate(-9px, -8px);
-	position: relative;
-	z-index: 100;
+
+	
 }
 
 .hamburger.is-active .bar {
