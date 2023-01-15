@@ -9,6 +9,10 @@ body{
 
 	font-family: 'Fira Sans', sans-serif;
 }
+#mobile_nav{
+	display: none;
+}
+
 
 .container {
 	width: 100%;
@@ -23,11 +27,14 @@ body{
 			padding-left: 64px;
 			padding-right: 64px;
 		}
+		
+		
 	}
 
 	@media (max-width: 767px) {
 		.container{padding-left: 32px;
 		padding-right: 32px;}
+
 	}
 
 .hamburger {
@@ -102,13 +109,14 @@ body{
 
 
 @media (min-width: 768px) {
-	.mobile-nav {
-		display: none;
+	#mobile_nav{
+		display: contents;
 	}
-
 	.hamburger {
 		display: none;
 	}
+	
+
 }
 
 
