@@ -262,23 +262,15 @@ object {
             
         }
     /* zavrsetak o nama */
-    #navigacija{
-        width: 30%;
-    }
-    #login{
-        text-align: right;
-    }
+   
+   
   
     #navigacija ul {
         position: fixed;
         right: -100%;
         top: 0;
-        height: 100%;
-        background: #5d6874;
         text-align: center;
         padding: 80px 0;
-        transition: 0.7s;
-
     }
     #navigacija ul li {
         display: block;
@@ -379,8 +371,9 @@ object {
     }
   }
 /* login button */
+
 .button-85 {
-    padding: 0.6em 2em;
+    padding: 0.5em 1.8em;
     border: none;
     outline: none;
     color: rgb(255, 255, 255);
@@ -395,23 +388,7 @@ object {
     font-size:15px;
 
 }
-.button-85:hover {
-    font-size: 16px;
-}
-  
 
-  @keyframes glowing-button-85 {
-    0% {
-      background-position: 0 0;
-    }
-    50% {
-      background-position: 400% 0;
-    }
-    100% {
-      background-position: 0 0;
-    }
-  }
-  
   .button-85:after {
     z-index: -1;
     content: "";
