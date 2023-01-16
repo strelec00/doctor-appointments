@@ -2,38 +2,35 @@
 <html lang="hr">
 <head>
    <?php
-   $title = "Termini";
+   $title = "Rezerviraj termin";
    $description = "Web aplikacija za rezervaciju termina"; 
    $keywords = "rezervacija, termini, doktor, termin, poliklinika"; 
-    include "includes/head.php";
-    
+    include "includes/head.php";  
    ?>
-</head>
-
+   <link rel="stylesheet" href="css/termin.css" type="text/css">
+   
+   </head>
 <body>
-    <div class="red">
-        <?php include "includes/navigation.php"; ?>        
-    </div>
+<form class="form">
+  <h2>Rezerviraj termin</h2>
+  <p type="Ime i prezime:"><input placeholder="Upiši svoje ime i prezime ovdje.." name="ime_prezime_pacijenta"></input></p>
+  <p type="Opis problema:"><input placeholder="Opišite svoj problem.." name="opis_problema"></input></p>
+  <p type="Datum rođenja:"><input type="date"> </input></p>
+  <p type="Vrijeme i datum termina?:"><input type="datetime-local" ></input></p>
+  <p type="Boj mobitela:"><input placeholder="Upišite broj mobitela.."></input></p>
+  <p type="Spol:">
+      <select name="spol" id="spol" style="width:200px;">
+        <option value="musko">Muško</option>
+        <option value="zensko">Žensko</option>
+    </p>
+</select>
 
-
-    <div class="red">
-         
-            <section id="sadrzaj" class="t-kolona-12">
-            <div class="d-kolona-1">
-                  </div>
-                  <div class="d-kolona-10 t-kolona-12">
-                    prvi
-                  </div>
-                 
-                  <div class="d-kolona-1 t-kolona-12">
-                  </div>
-            </section> 
-    </div>
-    <div class="red">
-        <?php include "includes/footer.php"; ?>
-    </div>
-    
+</div>
+  <button>Rezerviraj</button>
+  <div class="text">Vrati se na početnu.
+    <a href="index.php" class="text">Početna</a>
+</div>
+</form>
 
 </body>
 </html>
-    
