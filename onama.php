@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="hr">
 <head>
@@ -61,6 +64,7 @@
                     <br>
                     <b>Pregled</b>
                     <br>
+                    
                     Prilikom dolaska u bolnicu nudimo sveobuhvatni pregled pacijenata
                 </div>
                       
@@ -88,12 +92,9 @@
 
             </div>
         </div>
-        <div class="d-kolona-1 t-kolona-12">
-            
-        </div>
+     
                
     </div>
-    <div class="d-kolona-12 t-kolona-0" style="height: 99px;"></div>
     <div class="red">
         <?php include "includes/footer.php"; ?>
     </div>

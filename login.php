@@ -1,5 +1,6 @@
-  
-
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -58,31 +59,28 @@
             </div>
 
             <!-- Registration Form -->
-            <div class="form signup">
+            <div class="form signup" >
                 <span class="title">Registrirajte se</span>
 
-                <form action="#">
+                <form method="POST" action="unos_korisnika_spremi.php" enctype="multipart/form-data">
+                    
                     <div class="input-field">
-                        <input type="text" placeholder="Ime" required>
-                        <i class="uil uil-user"></i>
-                    </div>
-                    <div class="input-field">
-                        <input type="text" placeholder="E-mail" required>
+                        <input type="text" placeholder="E-mail ili Korisnicko ime" name="email" required>
                         <i class="uil uil-envelope icon"></i>
                     </div>
                     <div class="input-field">
-                        <input type="password" class="password" placeholder="Lozinka" required>
+                        <input type="password" class="password" name="lozinka1"  placeholder="Lozinka" required>
                         <i class="uil uil-lock icon"></i>
                     </div>
                     <div class="input-field">
-                        <input type="password" class="password" placeholder="Potvrdi lozinku" required>
+                        <input type="password" class="password" name="lozinka2" placeholder="Potvrdi lozinku" required>
                         <i class="uil uil-lock icon"></i>
                         <i class="uil uil-eye-slash showHidePw"></i>
                     </div>
 
                     
                     <div class="input-field button">
-                        <input type="button" value="Registracija">
+                        <input type="submit" value="Registracija">
                     </div>
                 </form>
 

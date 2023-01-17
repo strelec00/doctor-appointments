@@ -1,3 +1,6 @@
+<?php
+require "includes/session/provjera-prijava.php";
+?>
 <!DOCTYPE html>
 <html lang="hr">
 <head>
@@ -11,6 +14,12 @@
 </head>
 
 <body>
+  <?php
+  if(($_SESSION['id_grupe'] != 1)){
+    echo "<script>location.href = 'index.php';</script>";
+    exit;
+  }
+  ?>
     <div class="red">
         <?php include "includes/navigation.php"; ?>        
     </div>
@@ -18,16 +27,20 @@
 
     <div class="red">
          
-            <section id="sadrzaj" class="t-kolona-12">
-            <div class="d-kolona-1">
-                  </div>
-                  <div class="d-kolona-10 t-kolona-12">
-                    prvi
-                  </div>
-                 
-                  <div class="d-kolona-1 t-kolona-12">
-                  </div>
-            </section> 
+           
+  <div class="t-kolona-0 d-kolona-1">
+    asd
+  </div>
+  
+  <div class="t-kolona-12 d-kolona-10" style="height: 600px;">
+    
+  
+</div>
+
+<div class="t-kolona-0 d-kolona-1">
+  asd
+</div>
+
     </div>
     <div class="red">
         <?php include "includes/footer.php"; ?>

@@ -86,7 +86,7 @@ body {
 /*.......................................*/
 /*.......................................*/
 #onama_sadrzaj {
-    margin-bottom: 20px;
+    margin-bottom: 9px;
     min-height: 500px;
     max-height: 2000px;
     overflow: auto;
@@ -114,10 +114,12 @@ body {
 #onama_desni_container img{
     width: 120px;
     height: 120px;
+    margin-bottom: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #onama_desni_container {
     text-align: center;
+    height: 599px;
 }
 
 /* Završetak CSS-a vezanog za stranicu O nama*/
@@ -163,7 +165,7 @@ body {
     height: auto;
     width: 100%;
     min-width: 230px;
-    background-color: #3675359f;
+    background-color: #27b325a6;
     border-radius: 10px;
 }
 #izbornik_blok > ul{
@@ -172,7 +174,7 @@ body {
 /*footer*/
 
 #podnozje {
-    background-color: rgb(52, 85, 45);
+    background-color: rgb(54, 104, 44);
     color: #000000;
     text-align: center;
     font-size: 14px;

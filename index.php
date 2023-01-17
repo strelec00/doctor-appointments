@@ -1,6 +1,6 @@
-<?php
-session_start();
-?>
+    <?php
+    session_start();
+    ?>
 <!DOCTYPE html>
 <html lang="hr">
 <head>
@@ -11,13 +11,18 @@ session_start();
     include "includes/head.php";
     
    ?>
+   <script>
+        window.alert("Dobrodošao natrag <?php echo $_SESSION['email']; ?>");
+    </script>
+
 </head>
 
 <body>
     <div class="red">
-        <?php include "includes/navigation.php"; ?>        
+        <?php include "includes/navigation.php"; ?> 
     </div>
 
+   
 
     <div class="red">
          <?php include "includes/header.php"; ?>
@@ -34,4 +39,3 @@ session_start();
 
 </body>
 </html>
-    

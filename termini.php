@@ -1,5 +1,5 @@
 <?php
-session_start();
+require "includes/session/provjera-prijava.php";
 ?>
 <!DOCTYPE html>
 <html lang="hr">
@@ -13,7 +13,8 @@ session_start();
    
    </head>
 <body>
-<?php 
+<?php
+
    if(!isset($_SESSION["status"])){
     $_SESSION["status"] = "undifine";
 }
@@ -29,6 +30,9 @@ if ($_SESSION["status"] == 1 and ($_SESSION["id_grupe"] == 1)) {
   ?>
 
 
+<div class="red">
+  
+  
   <div class="t-kolona-0 d-kolona-1">
     asd
   </div>
@@ -42,6 +46,7 @@ if ($_SESSION["status"] == 1 and ($_SESSION["id_grupe"] == 1)) {
   asd
 </div>
 
+</div>
 
 <?php 
   echo "<div class='red'>";
@@ -49,7 +54,7 @@ if ($_SESSION["status"] == 1 and ($_SESSION["id_grupe"] == 1)) {
   echo "</div>";
 }
 else{
-  echo
+  
     include "includes/termini_forma.php";
 }
     

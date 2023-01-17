@@ -1,3 +1,4 @@
+
 <div class="d-kolona-1 t-kolona-0">
     
     </div>
@@ -10,14 +11,17 @@
     
     <ul>
         <li><a href="index.php">POČETNA</a></li>
-        <li><a href="termini.php">TERMINI</a></li>
         <?php 
+       
          if(!isset($_SESSION["status"])){
             $_SESSION["status"] = "undifine";
         }
         if(!isset($_SESSION["id_grupe"])){
             $_SESSION["id_grupe"] = "undifine";
         }
+        if($_SESSION["status"] == 1){
+            echo " <li><a href='termini.php'>TERMINI</a></li>";
+        } 
         if($_SESSION["status"] != 0 AND ($_SESSION["id_grupe"] == 1)){
             echo "<li><a href='pacijenti.php'>PACIJENTI</a></li>";
         } 
@@ -33,15 +37,15 @@
         if(!isset($_SESSION["id_grupe"])){
             $_SESSION["id_grupe"] = "undifine";
         }
-        
-        
-        if($_SESSION["status"] == 1) {
-        echo 
-        "<li><a href='includes/session/zatvori-sesiju.php'><button class='button-85' role='button'>Odjavi se</button>";}
-        else{
-            echo 
-            "<li><a href='login.php'><button class='button-85' role='button'>Login</button>";}
-            
+
+
+        if ($_SESSION["status"] == 1) {
+            echo
+                "<li><a href='includes/session/zatvori-sesiju.php'><button class='button-85' role='button'>Odjavi se</button>";
+        } else {
+            echo
+                "<li><a href='login.php'><button class='button-85' role='button'>Login</button>";
+        }
         ?>       
         
     
@@ -54,7 +58,18 @@
 	<div class="mobile-nav">
     <ul>
         <a href="index.php">POČETNA</a>
-        <a href="termini.php">TERMINI</a>
+        <?php
+          if(!isset($_SESSION["status"])){
+            $_SESSION["status"] = "undifine";
+        }
+        if(!isset($_SESSION["id_grupe"])){
+            $_SESSION["id_grupe"] = "undifine";
+        }
+            if($_SESSION["status"] == 1 AND ($_SESSION["id_grupe"] == 1)){
+            echo "<a href='termini.php'>TERMINI</a>";
+        } 
+        ?>
+    
 
         <?php
          if(!isset($_SESSION["status"])){
@@ -70,6 +85,8 @@
         <a href="onama.php">O NAMA</a>
         <a href="kontakt.php">KONTAKT</a>    
        <?php
+
+       
        
   if($_SESSION["status"] != 1) {
     echo 
@@ -84,4 +101,4 @@
     </div>
     <script src="./js/hamburger.js"></script>
 
-
+    
