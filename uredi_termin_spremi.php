@@ -21,7 +21,10 @@
                 <h2>Unos Termina</h2>
                 <?php
                     //ispis greske i prekidanje skripte, ako se datoteci pokuša pristupiti izravno    
-
+                    if(!isset($_POST["submit"])){
+                        echo "Ne možete pristupiti datoteci bez predaje podataka forme.";
+                        exit;
+                    }
 
                     require_once 'includes/baza.php';
                     $baza = new Baza();

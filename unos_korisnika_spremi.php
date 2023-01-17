@@ -20,7 +20,10 @@
             <section id="sadrzaj" class="t-kolona-12 d-kolona-12" style="text-align: center; margin-top: 88px;">
                 <h2>Unos Korisnika</h2>
                 <?php                
-
+ if(!isset($_POST["submit"])){
+    echo "Ne možete pristupiti datoteci bez predaje podataka forme.";
+    exit;
+}
                     
                     require_once 'includes/baza.php';
                     $baza = new Baza();
@@ -71,7 +74,7 @@
                 <div id="poruka">
                     <p>
                         <?php echo $poruka;?>
-                        <a href="index.php">
+                        <a href="index.php"><br>
                         <input type="button" value="U redu">
                 </a>
                     </p>
