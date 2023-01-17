@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="hr">
 <head>
@@ -7,30 +10,52 @@
    $keywords = "rezervacija, termini, doktor, termin, poliklinika"; 
     include "includes/head.php";  
    ?>
-   <link rel="stylesheet" href="css/termin.css" type="text/css">
    
    </head>
 <body>
-<form class="form">
-  <h2>Rezerviraj termin</h2>
-  <p type="Ime i prezime:"><input placeholder="Upiši svoje ime i prezime ovdje.." name="ime_prezime_pacijenta"></input></p>
-  <p type="Opis problema:"><input placeholder="Opišite svoj problem.." name="opis_problema"></input></p>
-  <p type="Datum rođenja:"><input type="date"> </input></p>
-  <p type="Vrijeme i datum termina?:"><input type="datetime-local" ></input></p>
-  <p type="Boj mobitela:"><input placeholder="Upišite broj mobitela.."></input></p>
-  <p type="Spol:">
-      <select name="spol" id="spol" style="width:200px;">
-        <option value="musko">Muško</option>
-        <option value="zensko">Žensko</option>
-    </p>
-</select>
+<?php 
+   if(!isset($_SESSION["status"])){
+    $_SESSION["status"] = "undifine";
+}
+if(!isset($_SESSION["id_grupe"])){
+    $_SESSION["id_grupe"] = "undifine";
+}
 
+
+if ($_SESSION["status"] == 1 and ($_SESSION["id_grupe"] == 1)) {
+  echo "<div class='red'>";
+  include "includes/navigation.php";
+  echo "</div>";
+  ?>
+
+
+  <div class="t-kolona-0 d-kolona-1">
+    asd
+  </div>
+  
+  <div class="t-kolona-12 d-kolona-10" style="height: 600px;">
+    
+  
 </div>
-  <button>Rezerviraj</button>
-  <div class="text">Vrati se na početnu.
-    <a href="index.php" class="text">Početna</a>
+
+<div class="t-kolona-0 d-kolona-1">
+  asd
 </div>
-</form>
+
+
+<?php 
+  echo "<div class='red'>";
+  include "includes/footer.php";
+  echo "</div>";
+}
+else{
+  echo
+    include "includes/termini_forma.php";
+}
+    
+?>
+
+
 
 </body>
 </html>

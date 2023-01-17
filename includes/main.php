@@ -1,6 +1,7 @@
 <main id="izbornik_slide" class="t-kolona-12 d-kolona-12">
 
     <div class="t-kolona-12 d-kolona-3" id="izbornik_blok">
+    
         <h4>O nama</h4>
         <ul>
                     <!-- <li>Nudimo vrhunske usluge iz različitih područja medicine</li>

@@ -24,13 +24,13 @@
             <div class="form login">
                 <span class="title">Prijava</span>
 
-                <form action="#">
+                <form action="includes/session/otvori-sesiju.php" method="POST">
                     <div class="input-field">
-                        <input type="text" placeholder="Unesi e-mail" required>
+                        <input type="text" name="email" placeholder="Unesi e-mail" required>
                         <i class="uil uil-envelope icon"></i>
                     </div>
                     <div class="input-field">
-                        <input type="password" class="password" placeholder="Unesi lozinku" required>
+                        <input type="password" name="lozinka" class="password" placeholder="Unesi lozinku" required>
                         <i class="uil uil-lock icon"></i>
                         <i class="uil uil-eye-slash showHidePw"></i>
                     </div>
@@ -44,7 +44,7 @@
                     </div>
 
                     <div class="input-field button">
-                        <input type="button" value="Prijavi se">
+                        <input type="submit" value="Prijavi se">
                     </div>
                 </form>
 
