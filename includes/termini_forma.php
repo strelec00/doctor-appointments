@@ -6,8 +6,8 @@
   <p type="Ime i prezime:"><input placeholder="Upiši svoje ime i prezime ovdje.." name="ime_prezime_pacijenta" required></input></p>
   <p type="Opis problema:"><input placeholder="Opišite svoj problem.." name="opis_problema" required></input></p>
   <p type="Datum rođenja:"><input type="date" name="datum_rodenja" required> </input></p>
-  <p type="Vrijeme i datum termina?:"><input name="datum_termina" type="date" required></input></p>
-  <p type="Boj mobitela:"><input name="broj_telefona" placeholder="Upišite broj mobitela.." required></input></p>
+  <p type="Datum termina?:"><input name="datum_termina" type="date" required></input></p>
+  <p type="Vrijeme termina:"><input name="vrijeme_termina" type="time" required></input></p>
   <p type="Spol:">
       <select name="spol_pacijenta" id="spol" style="width:200px;">
         <option value="musko">Muško</option>

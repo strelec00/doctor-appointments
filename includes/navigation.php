@@ -22,9 +22,7 @@
         if($_SESSION["status"] == 1){
             echo " <li><a href='termini.php'>TERMINI</a></li>";
         } 
-        if($_SESSION["status"] != 0 AND ($_SESSION["id_grupe"] == 1)){
-            echo "<li><a href='pacijenti.php'>PACIJENTI</a></li>";
-        } 
+       
         ?>
         
         <li><a href="onama.php">O NAMA</a></li>
@@ -65,7 +63,7 @@
         if(!isset($_SESSION["id_grupe"])){
             $_SESSION["id_grupe"] = "undifine";
         }
-            if($_SESSION["status"] == 1 AND ($_SESSION["id_grupe"] == 1)){
+            if($_SESSION["status"] == 1){
             echo "<a href='termini.php'>TERMINI</a>";
         } 
         ?>
@@ -78,9 +76,7 @@
         if(!isset($_SESSION["id_grupe"])){
             $_SESSION["id_grupe"] = "undifine";
         }
-            if($_SESSION["status"] == 1 AND ($_SESSION["id_grupe"] == 1)){
-            echo "<a href='pacijenti.php'>PACIJENTI</a>";
-        } 
+            
         ?>
         <a href="onama.php">O NAMA</a>
         <a href="kontakt.php">KONTAKT</a>    

@@ -128,8 +128,7 @@ body {
 /* Izbornik // index */
 #sadrzaj {
     margin-bottom: 20px;
-    min-height: 500px;
-    max-height: 2000px;
+    height: 100px;
     overflow: auto;
     padding: 0;
 }

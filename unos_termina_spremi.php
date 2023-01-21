@@ -1,10 +1,14 @@
+
+  <?php
+    session_start();
+    ?>
 <!DOCTYPE html>
 <html lang="hr">
 <head>
    <?php
-   $title = "Unos Kategorije";
-   $description = "Web aplikacija za besplatno dijelenje fotografija. Unos Kategorije."; 
-   $keywords = "dijelenje fotografija, komentiranje, kategorije, unos Kategorije"; 
+   $title = "Unos termina";
+   $description = "Doktorova web aplikacija za unos termina. Unos termina."; 
+   $keywords = "doktor, pacijenti, termini, unos termina"; 
     include "includes/head.php";
    ?>
 
@@ -45,10 +49,10 @@
                     }else{
                         $opis_problema = strip_tags($_POST["opis_problema"]);
                     } 
-                    if(empty(trim($_POST['broj_telefona']))){
-                        $poruka .= "Broj telefona je obavezno polje za unos.<br>";
+                    if(empty(trim($_POST['vrijeme_termina']))){
+                        $poruka .= "Vrijeme termina telefona je obavezno polje za unos.<br>";
                     }else{
-                        $broj_telefona = strip_tags($_POST["broj_telefona"]);
+                        $vrijeme_termina = strip_tags($_POST["vrijeme_termina"]);
                     }
                     if(empty(trim($_POST['datum_rodenja']))){
                         $poruka .= "Datum rodenja je obavezno polje za unos.<br>";
@@ -64,17 +68,18 @@
                     }else{
                     $spol_pacijenta = strip_tags($_POST["spol_pacijenta"]);
                     }
+                $id_korisnika = $_SESSION['id_korisnika'];
 
                     if(empty($poruka)){
 
                     
-                    $upit = "INSERT INTO termin (ime_prezime_pacijenta, opis_problema, spol_pacijenta ,broj_telefona,datum_rodenja,datum_termina) values('$ime_prezime_pacijenta','$opis_problema','$spol_pacijenta', $broj_telefona, $datum_rodenja, $datum_termina)"; 
+                    $upit = "INSERT INTO termin (ime_prezime_pacijenta, opis_problema, spol_pacijenta ,vrijeme_termina,datum_rodenja,datum_termina, id_korisnika) values('$ime_prezime_pacijenta','$opis_problema','$spol_pacijenta', '$vrijeme_termina', '$datum_rodenja', '$datum_termina', $id_korisnika)"; 
 
                         $status = $baza -> promijeniDB($upit);
                         if($status){
-                            $poruka .= "Uspješno anžuriranje kategorije";
+                            $poruka .= "Uspješan unos termina";
                         }else{
-                            $poruka .= "Neuspješno anžuriranje kategorije";
+                            $poruka .= "Neuspješan unos termina";
                         }
 
                     }   
