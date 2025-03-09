@@ -3,9 +3,9 @@ DoctorAppointment is a web-based platform designed to streamline the process of 
 
 ## Features
 
-- User Login System: Secure authentication for patients and doctors.
-- Appointment Booking: Easy scheduling of doctor appointments with real-time availability.
-- Doctor Dashboard: Manage appointments and patient information effortlessly.
+- User Login System: Secure authentication for patients and doctors
+- Appointment Booking: Easy scheduling of doctor appointments with real-time availability
+- Doctor Dashboard: Manage appointments and patient information effortlessly
 - Patient Dashboard: View upcoming appointments and appointment history
 
 ## Technology Stack
