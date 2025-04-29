@@ -10,6 +10,6 @@ DoctorAppointment is a web-based platform designed to streamline the process of 
 
 ## Technology Stack
 
-- Frontend: JavaScript, HTML, CSS
+- Frontend: HTML, CSS
 - Backend: PHP
 - Database: MySQL
